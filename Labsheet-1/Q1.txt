@@ -1,0 +1,13 @@
+SUBJECT: NOSQL DATABASE DESIGN
+LABSHEET-1
+
+Q1. Create a new MongoDB database named StudentDB and verify its successful creation using the MongoDB Shell.
+
+CODE:
+
+use StudentDB
+db
+
+OUTPUT:
+The StudentDB database is selected. The db command displays StudentDB.
+
