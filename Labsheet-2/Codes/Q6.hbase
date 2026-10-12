@@ -1,0 +1,21 @@
+create 'Students', 'personal', 'academic'
+
+put 'Students', '1', 'personal:name', 'Aman'
+put 'Students', '1', 'academic:course', 'BCA'
+
+put 'Students', '2', 'personal:name', 'Riya'
+put 'Students', '2', 'academic:course', 'BCA'
+
+put 'Students', '3', 'personal:name', 'Neha'
+put 'Students', '3', 'academic:course', 'BBA'
+
+put 'Students', '4', 'personal:name', 'Rahul'
+put 'Students', '4', 'academic:course', 'BCA'
+
+put 'Students', '5', 'personal:name', 'Priya'
+put 'Students', '5', 'academic:course', 'BBA'
+
+get 'Students', '1'
+put 'Students', '1', 'academic:course', 'MCA'
+scan 'Students'
+deleteall 'Students', '5'

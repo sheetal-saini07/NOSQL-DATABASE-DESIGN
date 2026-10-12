@@ -1,0 +1,11 @@
+SET 1 Aman
+SET 2 Riya
+SET 3 Neha
+SET 4 Rahul
+SET 5 Priya
+
+GET 1
+SET 1 Sheetal
+GET 1
+DEL 5
+KEYS *
